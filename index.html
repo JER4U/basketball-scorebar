@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 class="score" id="homescore">0</h2>
+                <div>
+                    <button id="homeone" onclick="plusone_home()">+1</button>
+                    <button id="hometwo" onclick="plustwo_home()">+2</button>
+                    <button id="homethree" onclick="plusthree_home()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h2 class="score" id="guestscore">0</h2>
+                <div>
+                    <button id="guestone" onclick="plusone_guest()">+1</button>
+                    <button id="guesttwo" onclick="plustwo_guest()">+2</button>
+                    <button id="guestthree" onclick="plusthree_guest()">+3</button>
+                </div>
+            </div> 
+            
+            </div>
+            <div>
+                <button onclick="reset()">Reset</button>
+            </div>
+            <div class="previous" id="myDiv"></div>
+        </div>
+        <script src="vite.config.js"></script>
+    </body>
+</html>
